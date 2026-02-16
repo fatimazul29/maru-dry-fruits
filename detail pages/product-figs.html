@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Detail - Figs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">Maru Dry Fruits 🥜🍇</div>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../product.html">Products</a>
+            <a href="../offers.html">Offers</a>
+            <a href="../giftpack.html">Gift Packs</a>
+            <a href="../about.html">About Us</a>
+            <a href="../contact.html">Contact</a>
+            <a href="../account.html">Account</a>
+        </nav>
+         <div class="cart-icon">
+            🛒 <span id="cart-count">0</span>
+        </div>
+</header>
+<div class="overlay">
+  <div class="detail-box">
+
+    <!-- CLOSE -->
+    <span class="close" onclick="history.back()">×</span>
+
+    <!-- TOP SECTION -->
+    <div class="detail-flex">
+
+      <!-- IMAGE -->
+      <div class="detail-img">
+        <img src="../images/figs.jpg" alt="Figs">
+      </div>
+
+      <!-- INFO -->
+      <div class="detail-info">
+        <h1>Figs (Anjeer)</h1>
+        <p class="sub">Naturally sweet dried figs, rich in fiber</p>
+
+        <h4>Select Quality</h4>
+        <div class="quality">
+          <button class="active">Premium<br>Rs 1600</button>
+          <button>Standard<br>Rs 1350</button>
+          <button>Economy<br>Rs 1100</button>
+        </div>
+
+        <div class="qty">
+          <button onclick="qty(-1)">−</button>
+          <span id="q">1</span>
+          <button onclick="qty(1)">+</button>
+        </div>
+        <button class="cart add-to-cart" data-name="Figs">
+  Add to Cart
+</button>
+
+      </div>
+
+    </div>
+
+    <!-- BOTTOM -->
+    <div class="extra">
+      <h3>Nutrition (per 100g)</h3>
+      <ul>
+        <li>Calories: 249 kcal</li>
+        <li>Fiber: 9.8g</li>
+        <li>Calcium: 162mg</li>
+      </ul>
+
+      <h3>Health Benefits</h3>
+      <ul>
+        <li>Improves digestion</li>
+        <li>Strengthens bones</li>
+        <li>Helps control blood sugar</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<script src=",,/script.js"></script>
+</body>
+</html>
